@@ -1,0 +1,21 @@
+.total-row {
+    background-color: #e2eeff; /* Scegli il colore di sfondo desiderato */
+}
+
+.month-header {
+  background-color: #f8f8f8;
+}
+
+.custom-navbar-color {
+  background-color: rgb(225, 239, 255);
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+}
