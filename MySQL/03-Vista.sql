@@ -22,7 +22,7 @@ ORDER BY
     `finanze`.`movimenti`.`nome_conto`;
 
 -- MySQL 8 --
-
+/*
 create or replace
 algorithm = UNDEFINED view `finanze`.`movimenti_mensili` as
 select
@@ -45,3 +45,4 @@ order by
     `anno`,
     `mese`,
     `finanze`.`movimenti`.`nome_conto`;
+*/

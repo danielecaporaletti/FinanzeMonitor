@@ -1,3 +1,5 @@
+USE `finanze`;
+
 -- Inserimento dati nella tabella `conti`
 INSERT INTO conti (nome_conto, saldo) VALUES
 ('Conto Bancario', '40573'),

@@ -1,4 +1,3 @@
-
 DROP DATABASE IF EXISTS `finanze`;
 CREATE DATABASE  IF NOT EXISTS `finanze`;
 USE `finanze`;
