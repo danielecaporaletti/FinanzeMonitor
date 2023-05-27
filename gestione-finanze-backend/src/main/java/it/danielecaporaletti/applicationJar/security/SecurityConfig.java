@@ -50,7 +50,7 @@ public class SecurityConfig {
     public CorsFilter corsFilter() {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowCredentials(true);
-        config.setAllowedOriginPatterns(Arrays.asList("http://finanze.danielecaporaletti.it", "http://35.195.199.131")); // Usa setAllowedOriginPatterns invece di setAllowedOrigins
+        config.setAllowedOriginPatterns(Arrays.asList("*")); // Usa setAllowedOriginPatterns invece di setAllowedOrigins
         config.addAllowedHeader("*");
         config.addAllowedMethod("*");
 
