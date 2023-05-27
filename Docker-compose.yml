@@ -6,7 +6,7 @@ services:
       context: ./gestione-finanze-frontend
       dockerfile: Dockerfile
     ports:
-      - "3000:443"
+      - "80:80"
     networks:
       - mynetwork
 
