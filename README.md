@@ -1,5 +1,6 @@
-**Note: This document is available in two languages, English and Italian.**
+**Note: This document is available in two languages, <a href="#english">English</a> and <a href="#italian">Italian<a>.**
 
+<a id="english"></a>
 **ENGLISH VERSION**
 
 # Local Installation
@@ -47,6 +48,7 @@ The database is implemented with MySQL5 and connected to the back-end via Hibern
 
 ---
 
+<a id="italian"></a>
 **VERSIONE ITALIANA**
 
 # Installazione in locale
